@@ -23,7 +23,7 @@ export default {
 
 <template>
   <nav>
-    <a href="/"><div class="logo">Portfolio</div></a>
+    <a href="thomas-robert/"><div class="logo">Portfolio</div></a>
     <ul :class="{ 'slide-in': menuOpen }">
       <a href="#home"><li>À propos</li></a>
       <a href="#about-me"><li>Outils maitrisés</li></a>
@@ -169,7 +169,7 @@ nav {
 
     .svg-inline--fa.fa-xmark {
       padding: 20px;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       z-index: 1000;

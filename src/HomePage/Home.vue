@@ -11,7 +11,7 @@ export default {
   computed: {
     waveStyle() {
       return {
-        background: `url(${this.pictures.wave}) repeat-x`,
+        background: `url(images/wave.svg) repeat-x`,
         backgroundSize: '200% 100%',
         animation: 'wave 20s infinite linear alternate-reverse'
       }
@@ -71,7 +71,13 @@ export default {
   overflow: hidden;
   display: flex;
   flex-direction: row;
+  position: relative;
+  z-index: 1;
 
+  .full-stack,
+  .dev {
+    font-family: 'Times New Roman', Times, serif;
+  }
   .job {
     width: 50%;
     display: flex;

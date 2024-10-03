@@ -72,8 +72,9 @@ export default {
     <img :src="pictures.triangle_o" alt="triangle" class="triangle_o" />
     <TitleNumber number="01" title="Outils maitrisés" />
     <p class="description">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea quas cumque, assumenda
-      eligendi repudiandae magni i.
+      Au fil des années, j'ai acquis des compétences variées à travers des expériences
+      professionnelles enrichissantes dans le domaine de l'audiovisuel et du numérique, que ce soit
+      en entreprise ou lors de stages. Voici un aperçu de mon parcours.
     </p>
 
     <Carousel

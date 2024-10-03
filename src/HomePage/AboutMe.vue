@@ -65,18 +65,24 @@ export default {
 
     <div class="all-progress">
       <div class="progress">
+        <img :src="pictures.ae" alt="" class="progress-img" />
+        <div>
+          <p>Adobe After Effects</p>
+          <progress value="97" max="100">97 %</progress>
+        </div>
+      </div>
+      <div class="progress">
         <img :src="pictures.ai" alt="" class="progress-img" />
-
         <div>
           <p>Adobe illustrator</p>
-          <progress value="70" max="100">70 %</progress>
+          <progress value="80" max="100">80 %</progress>
         </div>
       </div>
       <div class="progress">
         <img :src="pictures.ps" alt="" class="progress-img" />
         <div>
           <p>Adobe Photoshop</p>
-          <progress value="70" max="100">70 %</progress>
+          <progress value="50" max="100">50 %</progress>
         </div>
       </div>
       <div class="progress">
@@ -90,14 +96,7 @@ export default {
         <img :src="pictures.blender" alt="" class="progress-img" />
         <div>
           <p>Blender</p>
-          <progress value="70" max="100">70 %</progress>
-        </div>
-      </div>
-      <div class="progress">
-        <img :src="pictures.ae" alt="" class="progress-img" />
-        <div>
-          <p>Adobe After Effects</p>
-          <progress value="70" max="100">70 %</progress>
+          <progress value="60" max="100">60 %</progress>
         </div>
       </div>
       <div class="progress">
@@ -113,8 +112,9 @@ export default {
     <div id="experience">
       <TitleNumber number="02" title="Expériences professionnelles" />
       <p class="description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea quas cumque,
-        assumenda eligendi repudiandae magni i.
+        Au fil des années, j'ai acquis des compétences variées à travers des expériences
+        professionnelles enrichissantes dans le domaine de l'audiovisuel et du numérique, que ce
+        soit en entreprise ou lors de stages.
       </p>
 
       <Carousel
@@ -140,7 +140,7 @@ export default {
 
 <style lang="scss" scoped>
 #about-me {
-  background: linear-gradient(0, #e3e3e3 0%, #ffffffb9 100%);
+  background: linear-gradient(0, #f3f5f6 0%, #ffffffb9 100%);
   width: 100%;
   padding: 40px;
   color: var(--black);
@@ -166,7 +166,7 @@ export default {
     }
 
     img {
-      width: 50px;
+      width: 80px;
       height: auto;
       margin-right: 10px;
     }
